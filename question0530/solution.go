@@ -67,7 +67,7 @@ func getMinimumDifference(root *TreeNode) int {
 本题是一个【二叉搜索树】，二叉搜索树以中序遍历能得到一个升序数组，不用再次排序
 在这个升序数组中可以找到最小的差
 */
-func getMinimumDifference_Offical(root *TreeNode) int {
+func getMinimumDifferenceOffical(root *TreeNode) int {
 	answer, pre := math.MaxInt32, -1
 	var dfs func(node *TreeNode)
 	dfs = func(node *TreeNode) {
