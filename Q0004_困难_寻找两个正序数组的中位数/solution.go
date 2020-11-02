@@ -1,4 +1,4 @@
-package question0004
+package Q0004_困难_寻找两个正序数组的中位数
 
 import "math"
 
@@ -103,7 +103,6 @@ func getNumberK(nums1 []int, start1 int, nums2 []int, start2 int, k int) (float6
 			return n, math.Min(mNext, m)
 		} else {
 			return m, n
-
 		}
 	}
 
