@@ -35,7 +35,6 @@ func TestQuetion7_3(t *testing.T) {
 func TestQuetion7_4(t *testing.T) {
 	var inputX int32
 	inputX = math.MaxInt32
-	t.Logf("intpuX=%v", inputX)
 	answer := 0
 	res := reverse(int(inputX))
 	if res != answer {
