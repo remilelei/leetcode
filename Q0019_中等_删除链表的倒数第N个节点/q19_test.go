@@ -1,4 +1,4 @@
-package question0019
+package Q0019_中等_删除链表的倒数第N个节点
 
 import (
 	"testing"
